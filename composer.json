@@ -1,0 +1,16 @@
+{
+    "name": "chillu/test-composer-plugin",
+    "type": "composer-plugin",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Chillu\\TestComposerPlugin\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Chillu\\TestComposerPlugin\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.1 || ^2"
+    }
+}
